@@ -4,6 +4,7 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 //禁止文本缩放 字体设置  取消touch高亮效果
@@ -56,4 +57,13 @@ a, a:active, a:hover {
 //去掉点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)
 a, button, input, textarea {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: top;
 }
