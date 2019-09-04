@@ -115,7 +115,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/index.html',  // 会与根目录下的index.html相关联，把根目录下index的东西都放到生成的HTML中
       filename: 'index.html', // 生成的HTML名，路径为上面output中的path，不写默认为index.html
-      favicon:'./static/logo.png',
+      favicon:'./static/favicon.ico',
       hash: true,
       //inject: 'body', //指定链接注入在<head>标签中还是<body>标签中，为false值时表示不自动注入文件中，需要手动设置
       chunks: ['index'],  // 多页面分别引入自己的js
